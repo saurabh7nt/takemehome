@@ -35,7 +35,7 @@ export default function Ourteam() {
                 <div class="card image-container">
                   <img src={img1} class="card-img-top pop-up-image" alt="..." />
                   <div class="card-body">
-                    <h5 class="card-title">Dr. Mili Sharma</h5>
+                    <h5 class="card-title">Dr. Vikas Tajane </h5>
                     <h6 class="text-body-secondary">Veterinary Consultant</h6>
                     <p class="card-text">This is a longer card with supporting text below as a natural lead-in to additional content. This content is a little bit longer.</p>
                   </div>
@@ -45,7 +45,7 @@ export default function Ourteam() {
                 <div class="card image-container">
                   <img src={img2} class="card-img-top pop-up-image" alt="..." />
                   <div class="card-body">
-                    <h5 class="card-title">Dr. Saurabh Lipane</h5>
+                    <h5 class="card-title">Dr. Mili Sharma</h5>
                     <h6 class="text-body-secondary">Veterinary Consultant</h6>
                     <p class="card-text">This is a longer card with supporting text below as a natural lead-in to additional content. This content is a little bit longer.</p>
                   </div>

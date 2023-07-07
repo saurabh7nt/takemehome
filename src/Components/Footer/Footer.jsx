@@ -112,13 +112,12 @@ export default function Footer() {
                         <a href="/" class="mb-3 me-2 mb-md-0 text-muted text-decoration-none lh-1">
                             
                         </a>
-                        <span class="mb-3 mb-md-0">2023 TakemeHome Animal Welfare Foundation ™. All Rights Reserved.</span>
+                        <span class="mb-3 mb-md-0">2023 TakemeHome™ . All Rights Reserved</span>
                     </div>
 
                     <ul class="nav col-md-4 justify-content-end list-unstyled d-flex">
                         <li class="ms-3"><Link className='text-reset text-decoration-none' href="#">Terms of use</Link></li>
                         <li class="ms-3"><Link className='text-reset text-decoration-none' href="#">Privacy policy</Link></li>
-                        <li class="ms-3"><Link className='text-reset text-decoration-none' href="">Whistleblower Policy</Link></li>
                         <li class="ms-3"><a className=' text-decoration-none' href="#">Back to Top</a></li>
                     </ul>
                 </footer>

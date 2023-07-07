@@ -1,5 +1,5 @@
 import React from 'react'
-import me from '../Images/Dog1.jpg'
+import me from '../Images/dog02.jpg'
 
 export default function Whowearefeature2() {
     return (

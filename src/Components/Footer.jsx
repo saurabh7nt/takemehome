@@ -10,9 +10,9 @@ export default function Footer() {
                         <div class="p-3  bg-dark text-white bg-light">
                             <div class="card border border-0" style={{ 'width': '18rem' }}>
                                 <div className='bg-dark text-white'>
-                                     <svg xmlns="http://www.w3.org/2000/svg" width="70" height="70" fill="currentColor" class="bi bi-house-fill" viewBox="0 0 16 16">
+                                    <svg xmlns="http://www.w3.org/2000/svg" width="70" height="70" fill="currentColor" class="bi bi-house-fill" viewBox="0 0 16 16">
                                         <path fill-rule="evenodd" d="M8 3.293l6 6V13.5a1.5 1.5 0 0 1-1.5 1.5h-9A1.5 1.5 0 0 1 2 13.5V9.293l6-6zm5-.793V6l-2-2V2.5a.5.5 0 0 1 .5-.5h1a.5.5 0 0 1 .5.5z" />
-                                        <path fill-rule="evenodd" d="M7.293 1.5a1 1 0 0 1 1.414 0l6.647 6.646a.5.5 0 0 1-.708.708L8 2.207 1.354 8.854a.5.5 0 1 1-.708-.708L7.293 1.5z"/>
+                                        <path fill-rule="evenodd" d="M7.293 1.5a1 1 0 0 1 1.414 0l6.647 6.646a.5.5 0 0 1-.708.708L8 2.207 1.354 8.854a.5.5 0 1 1-.708-.708L7.293 1.5z" />
                                     </svg>
                                 </div>
                                 <div class="card-body bg-dark text-white">
@@ -32,13 +32,14 @@ export default function Footer() {
                                     <Link className='fw-semibold fs-3 text-reset text-decoration-none' to="/home">Contact</Link>
                                 </li>
                                 <li className='d-flex  align-items-center mb-4'>
-                                    <Link className='text-reset text-decoration-none' to=''>1st cross, 1st Main Rd, Veerannapalya, Bengaluru 560045</Link>
+                                    <Link className='text-reset text-decoration-none' to=''><svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="currentColor" class="bi bi-geo-alt-fill" viewBox="0 0 16 16">
+                                        <path d="M8 16s6-5.686 6-10A6 6 0 0 0 2 6c0 4.314 6 10 6 10zm0-7a3 3 0 1 1 0-6 3 3 0 0 1 0 6z" />
+                                    </svg> 1st cross, 1st Main Rd, Veerannapalya, Bengaluru 560045</Link>
                                 </li>
                                 <li className='d-flex  align-items-center mb-5'>
-                                    <Link className='text-reset text-decoration-none' to=''>9876543210</Link>
-                                </li>
-                                <li className='d-flex  align-items-center mb-5'>
-                                    <Link className='text-reset text-decoration-none' to="">Privacy policy</Link>
+                                    <Link className='text-reset text-decoration-none' to=''><svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="currentColor" class="bi bi-telephone-fill" viewBox="0 0 16 16">
+                                        <path fill-rule="evenodd" d="M1.885.511a1.745 1.745 0 0 1 2.61.163L6.29 2.98c.329.423.445.974.315 1.494l-.547 2.19a.678.678 0 0 0 .178.643l2.457 2.457a.678.678 0 0 0 .644.178l2.189-.547a1.745 1.745 0 0 1 1.494.315l2.306 1.794c.829.645.905 1.87.163 2.611l-1.034 1.034c-.74.74-1.846 1.065-2.877.702a18.634 18.634 0 0 1-7.01-4.42 18.634 18.634 0 0 1-4.42-7.009c-.362-1.03-.037-2.137.703-2.877L1.885.511z" />
+                                    </svg> 9876543210</Link>
                                 </li>
                             </ul>
                         </div>
@@ -49,14 +50,56 @@ export default function Footer() {
                                 <li className='d-flex  align-items-center mb-5'>
                                     <Link className='fw-semibold fs-3 text-reset text-decoration-none' to="">Discover</Link>
                                 </li>
-                                <li className='d-flex  align-items-center mb-5'>
-                                    <Link className='text-reset text-decoration-none' to="/home">Events</Link>
+                                <li className='d-flex  align-items-center mb-3'>
+                                    <Link className='text-reset text-decoration-none' to="/home"><svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="currentColor" class="bi bi-arrow-up-right-square-fill" viewBox="0 0 16 16">
+                                        <path d="M14 0a2 2 0 0 1 2 2v12a2 2 0 0 1-2 2H2a2 2 0 0 1-2-2V2a2 2 0 0 1 2-2h12zM5.904 10.803L10 6.707v2.768a.5.5 0 0 0 1 0V5.5a.5.5 0 0 0-.5-.5H6.525a.5.5 0 1 0 0 1h2.768l-4.096 4.096a.5.5 0 0 0 .707.707z" />
+                                    </svg> Report Animal in Distress</Link>
+
                                 </li>
-                                <li className='d-flex  align-items-center mb-5'>
-                                    <Link className='text-reset text-decoration-none' to=''>Careers</Link>
+                                <li className='d-flex  align-items-center mb-3'>
+                                    <Link className='text-reset text-decoration-none' to=''><svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="currentColor" class="bi bi-arrow-up-right-square-fill" viewBox="0 0 16 16">
+                                        <path d="M14 0a2 2 0 0 1 2 2v12a2 2 0 0 1-2 2H2a2 2 0 0 1-2-2V2a2 2 0 0 1 2-2h12zM5.904 10.803L10 6.707v2.768a.5.5 0 0 0 1 0V5.5a.5.5 0 0 0-.5-.5H6.525a.5.5 0 1 0 0 1h2.768l-4.096 4.096a.5.5 0 0 0 .707.707z" />
+                                    </svg> Careers</Link>
                                 </li>
+                                <li className='d-flex  align-items-center mb-3'>
+                                    <Link className='text-reset text-decoration-none' to=''><svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="currentColor" class="bi bi-arrow-up-right-square-fill" viewBox="0 0 16 16">
+                                        <path d="M14 0a2 2 0 0 1 2 2v12a2 2 0 0 1-2 2H2a2 2 0 0 1-2-2V2a2 2 0 0 1 2-2h12zM5.904 10.803L10 6.707v2.768a.5.5 0 0 0 1 0V5.5a.5.5 0 0 0-.5-.5H6.525a.5.5 0 1 0 0 1h2.768l-4.096 4.096a.5.5 0 0 0 .707.707z" />
+                                    </svg> Events</Link>
+                                </li>
+                                <li className='d-flex  align-items-center mb-3'>
+                                    <Link className='text-reset text-decoration-none' to=''><svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="currentColor" class="bi bi-arrow-up-right-square-fill" viewBox="0 0 16 16">
+                                        <path d="M14 0a2 2 0 0 1 2 2v12a2 2 0 0 1-2 2H2a2 2 0 0 1-2-2V2a2 2 0 0 1 2-2h12zM5.904 10.803L10 6.707v2.768a.5.5 0 0 0 1 0V5.5a.5.5 0 0 0-.5-.5H6.525a.5.5 0 1 0 0 1h2.768l-4.096 4.096a.5.5 0 0 0 .707.707z" />
+                                    </svg> Become a Volunteer</Link>
+                                </li>
+                            </ul>
+                        </div>
+                    </div>
+                    <div class="col ">
+                        <div class="p-3 bg-dark text-white bg-light">
+                            <ul>
                                 <li className='d-flex  align-items-center mb-5'>
-                                    <Link className='text-reset text-decoration-none' to=''>Become a Volunteer</Link>
+                                    <Link className='fw-semibold fs-3 text-reset text-decoration-none' to="">Donors</Link>
+                                </li>
+                                <li className='d-flex  align-items-center mb-3'>
+                                    <Link className='text-reset text-decoration-none' to="/home"><svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="currentColor" class="bi bi-arrow-up-right-square-fill" viewBox="0 0 16 16">
+                                        <path d="M14 0a2 2 0 0 1 2 2v12a2 2 0 0 1-2 2H2a2 2 0 0 1-2-2V2a2 2 0 0 1 2-2h12zM5.904 10.803L10 6.707v2.768a.5.5 0 0 0 1 0V5.5a.5.5 0 0 0-.5-.5H6.525a.5.5 0 1 0 0 1h2.768l-4.096 4.096a.5.5 0 0 0 .707.707z" />
+                                    </svg> One Day Meal Programme</Link>
+
+                                </li>
+                                <li className='d-flex  align-items-center mb-3'>
+                                    <Link className='text-reset text-decoration-none' to=''><svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="currentColor" class="bi bi-arrow-up-right-square-fill" viewBox="0 0 16 16">
+                                        <path d="M14 0a2 2 0 0 1 2 2v12a2 2 0 0 1-2 2H2a2 2 0 0 1-2-2V2a2 2 0 0 1 2-2h12zM5.904 10.803L10 6.707v2.768a.5.5 0 0 0 1 0V5.5a.5.5 0 0 0-.5-.5H6.525a.5.5 0 1 0 0 1h2.768l-4.096 4.096a.5.5 0 0 0 .707.707z" />
+                                    </svg> CSR Donations</Link>
+                                </li>
+                                <li className='d-flex  align-items-center mb-3'>
+                                    <Link className='text-reset text-decoration-none' to=''><svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="currentColor" class="bi bi-arrow-up-right-square-fill" viewBox="0 0 16 16">
+                                        <path d="M14 0a2 2 0 0 1 2 2v12a2 2 0 0 1-2 2H2a2 2 0 0 1-2-2V2a2 2 0 0 1 2-2h12zM5.904 10.803L10 6.707v2.768a.5.5 0 0 0 1 0V5.5a.5.5 0 0 0-.5-.5H6.525a.5.5 0 1 0 0 1h2.768l-4.096 4.096a.5.5 0 0 0 .707.707z" />
+                                    </svg> Donate in Honor</Link>
+                                </li>
+                                <li className='d-flex  align-items-center mb-3'>
+                                    <Link className='text-reset text-decoration-none' to=''><svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="currentColor" class="bi bi-arrow-up-right-square-fill" viewBox="0 0 16 16">
+                                        <path d="M14 0a2 2 0 0 1 2 2v12a2 2 0 0 1-2 2H2a2 2 0 0 1-2-2V2a2 2 0 0 1 2-2h12zM5.904 10.803L10 6.707v2.768a.5.5 0 0 0 1 0V5.5a.5.5 0 0 0-.5-.5H6.525a.5.5 0 1 0 0 1h2.768l-4.096 4.096a.5.5 0 0 0 .707.707z" />
+                                    </svg> Start a Fundraiser</Link>
                                 </li>
                             </ul>
                         </div>

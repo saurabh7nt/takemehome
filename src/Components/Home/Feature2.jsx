@@ -1,5 +1,5 @@
 import React from 'react'
-import image from '../Images/wbg2.jpg'
+import image from '../../Images/wbg2.jpg'
 
 export default function Feature2() {
     return (

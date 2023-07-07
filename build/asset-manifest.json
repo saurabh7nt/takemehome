@@ -1,7 +1,7 @@
 {
   "files": {
     "main.css": "/static/css/main.b7ccd368.css",
-    "main.js": "/static/js/main.07f36639.js",
+    "main.js": "/static/js/main.2310997c.js",
     "static/media/PetHome111.jpg": "/static/media/PetHome111.61cfd99efc95b1323bf6.jpg",
     "static/media/Kitty01.jpg": "/static/media/Kitty01.174e063490da5e68363b.jpg",
     "static/media/dog11.jpg": "/static/media/dog11.1b9797b9e6b2b1223248.jpg",
@@ -17,10 +17,10 @@
     "static/media/team44.jpg": "/static/media/team44.a1d028b4b6f0d9348947.jpg",
     "index.html": "/index.html",
     "main.b7ccd368.css.map": "/static/css/main.b7ccd368.css.map",
-    "main.07f36639.js.map": "/static/js/main.07f36639.js.map"
+    "main.2310997c.js.map": "/static/js/main.2310997c.js.map"
   },
   "entrypoints": [
     "static/css/main.b7ccd368.css",
-    "static/js/main.07f36639.js"
+    "static/js/main.2310997c.js"
   ]
 }

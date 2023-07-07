@@ -1,8 +1,9 @@
 import React from 'react'
-import kitty from '../Images/Kitty01.jpg'
-import dollar from '../Images/dog02.jpg'
-import dog11 from '../Images/dog11.jpg'
-import peter from '../Images/Cat02.jpg'
+// import kitty from '/Images/Kitty01.jpg'
+import kitty from '../../Images/Kitty01.jpg'
+import dollar from '../../Images/dog02.jpg'
+import dog11 from '../../Images/dog11.jpg'
+import peter from '../../Images/Cat02.jpg'
 
 export default function Card() {
     return (

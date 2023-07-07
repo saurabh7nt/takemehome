@@ -36,10 +36,15 @@ export default function Navbar() {
                                         <Link class="nav-link" to="/faq">Faq</Link>
                                     </li>
                                 </ul>
-                                <form class="d-flex" role="search">
-                                    <input class="form-control me-2" type="search" placeholder="Search" aria-label="Search" />
-                                    <button class="btn btn-outline-success" type="submit">Search</button>
-                                </form>
+                                <div class="d-flex pt-1" role="search">
+                                    <ul class="navbar-nav me-auto mb-2 mb-lg-0">
+                                        <li class="nav-item">
+                                            <p class="text-white"><svg xmlns="http://www.w3.org/2000/svg" width="20" height="20" fill="currentColor" class="bi bi-geo-alt-fill" viewBox="0 0 16 16">
+                                                <path d="M8 16s6-5.686 6-10A6 6 0 0 0 2 6c0 4.314 6 10 6 10zm0-7a3 3 0 1 1 0-6 3 3 0 0 1 0 6z" />
+                                            </svg> 1st cross, 1st Main Rd, Veerannapalya, Bengaluru 560045</p>
+                                        </li>
+                                    </ul>
+                                </div>
                             </div>
                         </div>
                     </nav>

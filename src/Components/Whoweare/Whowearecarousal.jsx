@@ -1,5 +1,5 @@
 import React from 'react'
-import image111 from '../Images/PetHome111.jpg'
+import image111 from '../../Images/PetHome111.jpg'
 
 export default function Whowearecarousal() {
     return (

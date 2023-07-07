@@ -1,9 +1,9 @@
 import React from 'react'
-import img1 from '../Images/team11.jpg'
-import img2 from '../Images/team22.jpg'
-import img3 from '../Images/team33.jpg'
-import img4 from '../Images/team44.jpg'
-import img5 from '../Images/team55.jpg'
+import img1 from '../../Images/team11.jpg'
+import img2 from '../../Images/team22.jpg'
+import img3 from '../../Images/team33.jpg'
+import img4 from '../../Images/team44.jpg'
+import img5 from '../../Images/team55.jpg'
 
 
 export default function Ourteam() {

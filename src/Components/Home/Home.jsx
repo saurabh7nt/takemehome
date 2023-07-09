@@ -9,7 +9,7 @@ export default function Home() {
   return (
     <>
         <Carousal/>
-        <Card/>
+        <Card />
         <Feature1/>
         <Feature2/>
         <Feature3/>

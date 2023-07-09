@@ -1,5 +1,4 @@
 import React from 'react'
-import me from '../../Images/dog02.jpg'
 
 export default function Whowearefeature2() {
     return (
@@ -23,7 +22,7 @@ export default function Whowearefeature2() {
                                     </div>
                                 </div>
                                 <div class="col-md-4">
-                                    <img src={me} class="img-fluid rounded-start" alt="..." />
+                                    <img src={process.env.PUBLIC_URL + '/Images/dog02.jpg'} class="img-fluid rounded-start" alt="..." />
                                 </div>
                             </div>
                         </div>

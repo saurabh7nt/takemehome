@@ -1,5 +1,4 @@
 import React from 'react'
-import image from '../../Images/wbg4.jpg'
 
 export default function Feature3() {
     return (
@@ -18,7 +17,7 @@ export default function Feature3() {
                         </p>
                     </div>
                     <div className="col-md-5 image-container">
-                        <img className='img-fluid pop-up-image' src={image} alt="" />
+                        <img className='img-fluid pop-up-image' src={process.env.PUBLIC_URL + '/Images/wbg4.jpg'} alt="" />
                     </div>
                 </div>
             </div>

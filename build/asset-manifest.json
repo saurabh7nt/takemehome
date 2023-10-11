@@ -1,13 +1,13 @@
 {
   "files": {
     "main.css": "/takemehome/static/css/main.b7ccd368.css",
-    "main.js": "/takemehome/static/js/main.87f5387b.js",
+    "main.js": "/takemehome/static/js/main.892cd736.js",
     "index.html": "/takemehome/index.html",
     "main.b7ccd368.css.map": "/takemehome/static/css/main.b7ccd368.css.map",
-    "main.87f5387b.js.map": "/takemehome/static/js/main.87f5387b.js.map"
+    "main.892cd736.js.map": "/takemehome/static/js/main.892cd736.js.map"
   },
   "entrypoints": [
     "static/css/main.b7ccd368.css",
-    "static/js/main.87f5387b.js"
+    "static/js/main.892cd736.js"
   ]
 }

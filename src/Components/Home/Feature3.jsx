@@ -17,7 +17,7 @@ export default function Feature3() {
                         </p>
                     </div>
                     <div className="col-md-5 image-container">
-                        <img className='img-fluid pop-up-image' src={process.env.PUBLIC_URL + '/Images/wbg4.jpg'} loading='lazy' alt="" />
+                        <img className='img-fluid pop-up-image' src={process.env.PUBLIC_URL + '/Images/wbg4.webp'} loading='lazy' alt="" />
                     </div>
                 </div>
             </div>

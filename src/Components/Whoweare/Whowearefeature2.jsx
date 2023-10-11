@@ -22,7 +22,7 @@ export default function Whowearefeature2() {
                                     </div>
                                 </div>
                                 <div class="col-md-4">
-                                    <img src={process.env.PUBLIC_URL + '/Images/dog02.jpg'} loading='lazy' class="img-fluid rounded-start" alt="..." />
+                                    <img src={process.env.PUBLIC_URL + '/Images/dog02.webp'} loading='lazy' class="img-fluid rounded-start" alt="..." />
                                 </div>
                             </div>
                         </div>

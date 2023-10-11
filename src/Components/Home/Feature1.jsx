@@ -16,7 +16,7 @@ export default function Feature1() {
                         <p>By adopting a pet, you are giving a second chance to an animal in need. Shelters and rescue organizations often face overcrowding issues and limited resources, and by adopting, you are directly saving a life and making space for another animal in need.</p>
                     </div>
                     <div className="col-md-5 image-container">
-                        <img className='img-fluid pop-up-image' src={process.env.PUBLIC_URL + '/Images/wbg1.jpg'} loading='lazy' alt="" />
+                        <img className='img-fluid pop-up-image' src={process.env.PUBLIC_URL + '/Images/wbg1.webp'} loading='lazy' alt="" />
                     </div>
                 </div>
             </div>

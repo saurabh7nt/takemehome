@@ -14,7 +14,7 @@ export default function Ourteam() {
           <div className="col-md-4 ">
             <div className="col">
               <div className="card image-container">
-                <img src={process.env.PUBLIC_URL + '/Images/team55.jpg'} className="card-img-top pop-up-image" alt="..." />
+                <img src={process.env.PUBLIC_URL + '/Images/team55.webp'} className="card-img-top pop-up-image" alt="..." />
                 <div className="card-body">
                   <h5 className="card-title">Dr. Kunal Darekar</h5>
                   <h6 className="text-body-secondary">Medical Director</h6>
@@ -27,7 +27,7 @@ export default function Ourteam() {
             <div className="row row-cols-1 row-cols-md-2 g-4 ">
               <div className="col">
                 <div className="card image-container">
-                  <img src={process.env.PUBLIC_URL + '/Images/team11.jpg'} className="card-img-top pop-up-image" alt="..." />
+                  <img src={process.env.PUBLIC_URL + '/Images/team11.webp'} className="card-img-top pop-up-image" alt="..." />
                   <div className="card-body">
                     <h5 className="card-title">Dr. Vikas Tajane </h5>
                     <h6 className="text-body-secondary">Veterinary Consultant</h6>
@@ -37,7 +37,7 @@ export default function Ourteam() {
               </div>
               <div className="col">
                 <div className="card image-container">
-                  <img src={process.env.PUBLIC_URL + '/Images/team22.jpg'} className="card-img-top pop-up-image" alt="..." />
+                  <img src={process.env.PUBLIC_URL + '/Images/team22.webp'} className="card-img-top pop-up-image" alt="..." />
                   <div className="card-body">
                     <h5 className="card-title">Dr. Pavan Darve</h5>
                     <h6 className="text-body-secondary">Veterinary Consultant</h6>
@@ -47,7 +47,7 @@ export default function Ourteam() {
               </div>
               <div className="col">
                 <div className="card image-container">
-                  <img src={process.env.PUBLIC_URL + '/Images/team33.jpg'} className="card-img-top pop-up-image" alt="..." />
+                  <img src={process.env.PUBLIC_URL + '/Images/team33.webp'} className="card-img-top pop-up-image" alt="..." />
                   <div className="card-body">
                     <h5 className="card-title">Dr. Ashlesh Bike</h5>
                     <h6 className="text-body-secondary">Veterinary Surgeon</h6>
@@ -57,7 +57,7 @@ export default function Ourteam() {
               </div>
               <div className="col">
                 <div className="card image-container">
-                  <img src={process.env.PUBLIC_URL + '/Images/team44.jpg'} className="card-img-top pop-up-image" alt="..." />
+                  <img src={process.env.PUBLIC_URL + '/Images/team44.webp'} className="card-img-top pop-up-image" alt="..." />
                   <div className="card-body">
                     <h5 className="card-title">Dr. Strange</h5>
                     <h6 className="text-body-secondary">Rescuer/Valunteer</h6>

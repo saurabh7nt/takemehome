@@ -8,43 +8,43 @@ export default function Card() {
     const handleButtonClick = (petName, data) => {
         console.log(petName);
         navigate(`/adoption/${petName}`, { state: data });
-      };
+    };
 
-    const data = [{ 
+    const data = [{
         name: "Kitty",
         age: "1 year",
-        vaccinated : "Yes",
-        size : "Medium",
-        gender : "Female",
-        sterilization : "Yes",
-        imagePath : '/Images/Kitty01.jpg'
-     },
-     { 
+        vaccinated: "Yes",
+        size: "Medium",
+        gender: "Female",
+        sterilization: "Yes",
+        imagePath: '/Images/Kitty01.jpg'
+    },
+    {
         name: "Dollar",
         age: "1 year",
-        vaccinated : "Yes",
-        size : "Small",
-        gender : "Male",
-        sterilization : "Yes",
-        imagePath : '/Images/dog02.jpg'
-     },
-     { 
+        vaccinated: "Yes",
+        size: "Small",
+        gender: "Male",
+        sterilization: "Yes",
+        imagePath: '/Images/dog02.jpg'
+    },
+    {
         name: "Scooby",
         age: "1 year",
-        vaccinated : "Yes",
-        size : "Small",
-        gender : "Male",
-        sterilization : "Yes",
-        imagePath : '/Images/dog11.jpg'
-     },{ 
+        vaccinated: "Yes",
+        size: "Small",
+        gender: "Male",
+        sterilization: "Yes",
+        imagePath: '/Images/dog11.jpg'
+    }, {
         name: "Peter",
         age: "1 year",
-        vaccinated : "Yes",
-        size : "Medium",
-        gender : "Male",
-        sterilization : "Yes",
-        imagePath : '/Images/cat02.jpg'
-     }];
+        vaccinated: "Yes",
+        size: "Medium",
+        gender: "Male",
+        sterilization: "Yes",
+        imagePath: '/Images/cat02.jpg'
+    }];
 
     return (
         <>
@@ -60,7 +60,7 @@ export default function Card() {
                 <div className="row">
                     <div className="col-md-3 col-sm-2">
                         <div className="card">
-                            <img src={process.env.PUBLIC_URL + '/Images/Kitty01.jpg'} className="card-img-top" alt="..." />
+                            <img src={process.env.PUBLIC_URL + '/Images/Kitty01.jpg'} loading='lazy' className="card-img-top" alt="..." />
                             <div className="card-body">
                                 <h3 className="card-text">Kitty</h3>
                                 <button className='btn btn-primary' onClick={() => handleButtonClick('Kitty', data)} >Adopt Me ! Please</button>
@@ -69,7 +69,7 @@ export default function Card() {
                     </div>
                     <div className="col-md-3 col-sm-2">
                         <div className="card">
-                            <img src={process.env.PUBLIC_URL + '/Images/dog02.jpg'} className="card-img-top" alt="..." />
+                            <img src={process.env.PUBLIC_URL + '/Images/dog02.jpg'} loading='lazy' className="card-img-top" alt="..." />
                             <div className="card-body">
                                 <h3 className="card-text">DOLLAR</h3>
                                 <button className='btn btn-primary' onClick={() => handleButtonClick('Dollar', data)} >Adopt Me ! Please</button>
@@ -78,7 +78,7 @@ export default function Card() {
                     </div>
                     <div className="col-md-3 col-sm-2">
                         <div className="card">
-                            <img src={process.env.PUBLIC_URL + '/Images/dog11.jpg'} className="card-img-top" alt="..." />
+                            <img src={process.env.PUBLIC_URL + '/Images/dog11.jpg'} loading='lazy' className="card-img-top" alt="..." />
                             <div className="card-body">
                                 <h3 className="card-text">SCOOBY</h3>
                                 <button className='btn btn-primary' onClick={() => handleButtonClick('Scooby', data)} >Adopt Me ! Please</button>
@@ -87,7 +87,7 @@ export default function Card() {
                     </div>
                     <div className="col-md-3 col-sm-2">
                         <div className="card">
-                            <img src={process.env.PUBLIC_URL + '/Images/cat02.jpg'} className="card-img-top" alt="..." />
+                            <img src={process.env.PUBLIC_URL + '/Images/cat02.jpg'} loading='lazy' className="card-img-top" alt="..." />
                             <div className="card-body">
                                 <h3 className="card-text">PETER</h3>
                                 <button className='btn btn-primary' onClick={() => handleButtonClick('Peter', data)} >Adopt Me ! Please</button>

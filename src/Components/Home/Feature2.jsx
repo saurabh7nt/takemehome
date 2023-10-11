@@ -6,7 +6,7 @@ export default function Feature2() {
             <div className="container mt-5">
                 <div className="row">
                     <div className="col-md-5 image-container">
-                        <img className='img-fluid pop-up-image'src={process.env.PUBLIC_URL + '/Images/wbg2.jpg'} alt="" />
+                        <img className='img-fluid pop-up-image'src={process.env.PUBLIC_URL + '/Images/wbg2.jpg'} loading='lazy' alt="" />
                     </div>
                     <div className="col-md-7 mt-5">
                        <h1><svg xmlns="http://www.w3.org/2000/svg" width="30" height="20" fill="currentColor" className="bi bi-arrow-right-circle" viewBox="0 0 16 16">

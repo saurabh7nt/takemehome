@@ -21,7 +21,7 @@ export default function Carousal() {
             <div className="container  mt-3">
                 <div className="row ">
                     <div className="col-md-12">
-                        <img class="img-fluid" src="https://images.pexels.com/photos/7210754/pexels-photo-7210754.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=2" alt="" />
+                        <img className="img-fluid" src="https://images.pexels.com/photos/7210754/pexels-photo-7210754.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=2" alt="" />
                     </div>
                 </div>
             </div>

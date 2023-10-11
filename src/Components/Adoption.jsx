@@ -22,7 +22,7 @@ export default function Adoption() {
   const param = useParams();
   const petName = param.petName;
 
-  const desiredElement = data.find(item => item.name == petName);
+  const desiredElement = data.find(item => item.name === petName);
 
   return (
     <div>
@@ -36,8 +36,8 @@ export default function Adoption() {
       <div className="container mt-5 border border-dark border-2 rounded-1">
         <div className="row">
           <div className="col-md-4 ">
-            <div class="mt-2 mb-2">
-              <img class="img-fluid" src={process.env.PUBLIC_URL + desiredElement.imagePath} alt="First slide" />
+            <div className="mt-2 mb-2">
+              <img className="img-fluid" src={process.env.PUBLIC_URL + desiredElement.imagePath} alt="First slide" />
             </div>
           </div>
           <div className="col-md-8">
@@ -47,18 +47,18 @@ export default function Adoption() {
                 <div className="col-md-6 ">
                   <ul className='mt-2 mb-2 list-unstyled'>
                     <li className='mb-4'>
-                      <h6><svg xmlns="http://www.w3.org/2000/svg" width="20" height="20" fill="currentColor" class="bi bi-caret-right" viewBox="0 0 16 16">
+                      <h6><svg xmlns="http://www.w3.org/2000/svg" width="20" height="20" fill="currentColor" className="bi bi-caret-right" viewBox="0 0 16 16">
                         <path d="M6 12.796V3.204L11.481 8 6 12.796zm.659.753l5.48-4.796a1 1 0 0 0 0-1.506L6.66 2.451C6.011 1.885 5 2.345 5 3.204v9.592a1 1 0 0 0 1.659.753z" />
                       </svg> Age : {desiredElement.age}</h6>
                     </li>
                     <li className='mb-4'>
                       <h6>
-                        <svg xmlns="http://www.w3.org/2000/svg" width="20" height="20" fill="currentColor" class="bi bi-caret-right" viewBox="0 0 16 16">
+                        <svg xmlns="http://www.w3.org/2000/svg" width="20" height="20" fill="currentColor" className="bi bi-caret-right" viewBox="0 0 16 16">
                           <path d="M6 12.796V3.204L11.481 8 6 12.796zm.659.753l5.48-4.796a1 1 0 0 0 0-1.506L6.66 2.451C6.011 1.885 5 2.345 5 3.204v9.592a1 1 0 0 0 1.659.753z" />
                         </svg> Size : {desiredElement.size}</h6>
                     </li>
                     <li className='mb-4'>
-                      <h6> <svg xmlns="http://www.w3.org/2000/svg" width="20" height="20" fill="currentColor" class="bi bi-caret-right" viewBox="0 0 16 16">
+                      <h6> <svg xmlns="http://www.w3.org/2000/svg" width="20" height="20" fill="currentColor" className="bi bi-caret-right" viewBox="0 0 16 16">
                         <path d="M6 12.796V3.204L11.481 8 6 12.796zm.659.753l5.48-4.796a1 1 0 0 0 0-1.506L6.66 2.451C6.011 1.885 5 2.345 5 3.204v9.592a1 1 0 0 0 1.659.753z" />
                       </svg> Sterilization : {desiredElement.sterilization}</h6>
                     </li>
@@ -67,12 +67,12 @@ export default function Adoption() {
                 <div className="col-md-6">
                   <ul className='mt-2 mb-2 list-unstyled'>
                     <li className='mb-4'>
-                      <h6><svg xmlns="http://www.w3.org/2000/svg" width="20" height="20" fill="currentColor" class="bi bi-caret-right" viewBox="0 0 16 16">
+                      <h6><svg xmlns="http://www.w3.org/2000/svg" width="20" height="20" fill="currentColor" className="bi bi-caret-right" viewBox="0 0 16 16">
                         <path d="M6 12.796V3.204L11.481 8 6 12.796zm.659.753l5.48-4.796a1 1 0 0 0 0-1.506L6.66 2.451C6.011 1.885 5 2.345 5 3.204v9.592a1 1 0 0 0 1.659.753z" />
                       </svg> Gender : {desiredElement.gender}</h6>
                     </li>
                     <li className='mb-4'>
-                      <h6><svg xmlns="http://www.w3.org/2000/svg" width="20" height="20" fill="currentColor" class="bi bi-caret-right" viewBox="0 0 16 16">
+                      <h6><svg xmlns="http://www.w3.org/2000/svg" width="20" height="20" fill="currentColor" className="bi bi-caret-right" viewBox="0 0 16 16">
                         <path d="M6 12.796V3.204L11.481 8 6 12.796zm.659.753l5.48-4.796a1 1 0 0 0 0-1.506L6.66 2.451C6.011 1.885 5 2.345 5 3.204v9.592a1 1 0 0 0 1.659.753z" />
                       </svg> Vaccination : {desiredElement.vaccinated}</h6>
                     </li>
@@ -104,7 +104,7 @@ export default function Adoption() {
             <div className="container mt-2 mb-2">
               <div className="row">
                 <div className="col-md-3">
-                  <button type="button" class="btn btn-primary" onClick={handleClick}>Adopt me !</button>
+                  <button type="button" className="btn btn-primary" onClick={handleClick}>Adopt me !</button>
                 </div>
               </div>
             </div>

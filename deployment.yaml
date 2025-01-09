@@ -14,7 +14,7 @@ spec:
     spec:
       containers:
         - name: react-app-container
-          image: takemehomebuild:latest
+          image: saurabh7nt/takemehomebuild:latest
           ports:
             - containerPort: 3000
 

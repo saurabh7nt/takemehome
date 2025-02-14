@@ -31,4 +31,5 @@ spec:
     - protocol: TCP
       port: 80          # External access port
       targetPort: 3000  # Matches the container port exposed in the Deployment
-  type: LoadBalancer
+      nodePort: 32000
+  type: NodePort

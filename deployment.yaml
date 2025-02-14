@@ -14,7 +14,7 @@ spec:
     spec:
       containers:
         - name: react-app-container
-          image: my-simple-app:latest  # Replace with your actual image name and tag
+          image: omkar0707/takemehomebuild:latest  # Replace with your actual image name and tag
           ports:
             - containerPort: 3000
 

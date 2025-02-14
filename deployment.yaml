@@ -14,7 +14,7 @@ spec:
     spec:
       containers:
         - name: react-app-container
-          image: my-simple-app:latest  # Replace with your actual image name and tag
+          image: omkar0707/jenkins:latest  # Replace with your actual image name and tag
           ports:
             - containerPort: 3000
 
@@ -31,4 +31,5 @@ spec:
     - protocol: TCP
       port: 80          # External access port
       targetPort: 3000  # Matches the container port exposed in the Deployment
-  type: LoadBalancer
+      nodePort: 32000  # Assign a unique port for external access (optional)
+  type: NodePort
